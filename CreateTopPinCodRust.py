@@ -1,7 +1,7 @@
 import sqlite3
 
 # Подключаемся к базе данных (или создаем ее)
-conn = sqlite3.connect('TopPinCodRust.db')
+conn = sqlite3.connect('top_pincod_rust.db')
 cursor = conn.cursor()
 
 # Создаем таблицу с одной колонкой

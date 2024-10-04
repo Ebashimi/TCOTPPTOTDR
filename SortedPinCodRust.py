@@ -1,7 +1,7 @@
 import sqlite3
 
 # Подключение к базе данных
-conn = sqlite3.connect('TopPinCodRust.db')
+conn = sqlite3.connect('top_pincod_rust.db')
 # Создаем курсор
 cursor = conn.cursor()
 
@@ -51,7 +51,7 @@ for row in rows:
 
 # Выводим результаты
 for key, value in count_dict.items():
-    print(f"Пин код {key}: кол-во раз {value}")
+    print(f"Пин код {key}: кол-во раз: {value}")
 
 
 # Закрываем базу данных
